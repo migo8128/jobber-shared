@@ -23,4 +23,4 @@ jobs:
       - run: npm publish
         working-directory: ./build
         env:
-          NPM_TOKEN: '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'
+          NPM_TOKEN: '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'
