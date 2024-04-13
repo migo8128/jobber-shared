@@ -19,8 +19,8 @@ jobs:
       - run: npm run build
       - run: |
           echo @migo8128/https://npm.pkg.github.com/ > build/.npmrc
-          echo '//npm.pkg.github.com/:_authToken=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' >> build/.npmrc
+          echo '//npm.pkg.github.com/:_authToken=${NPM_TOKEN}' >> build/.npmrc
       - run: npm publish
         working-directory: ./build
         env:
-          NPM_TOKEN: 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
+          NPM_TOKEN: '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'
