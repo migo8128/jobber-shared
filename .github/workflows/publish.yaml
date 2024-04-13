@@ -23,4 +23,4 @@ jobs:
       - run: npm publish
         working-directory: ./build
         env:
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: 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
